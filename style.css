@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+
+    margin: 0px 10% 0px 10%;
+    overflow: hidden;
+}
+
+.menu-icon {
+    right: 0;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    margin-top: 5%;
+}
+
+.navbar-brand {
+    margin-top: 4%;
+    position: absolute;
+    width: 10%;
+
+}
+
+.line-1,
+.line-2,
+.line-3 {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.menu-icon:hover .line3 {
+    margin-top: 9px;
+
+}
+
+.menu-icon:hover .line-1 {
+    margin-bottom: 7px;
+}
+
+.slider {
+    overflow: hidden;
+    margin: 3% 10% 0 10%;
+    width: 80%;
+    position: relative;
+}
+
+.caraousel-images img {
+    height: 100%;
+    width: 100%;
+}
+
+.caraousel-images {
+    animation: imganimate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes imganimate {
+    0% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.caraousel-text {
+    position: absolute;
+    z-index: 5;
+    top:
+}
+
+.caraousel-moving-text {
+    position: absolute;
+    z-index: 5;
+}
+
+.container-1 {
+    display: block;
+    margin: 10% 10% 10% 10%;
+    height: 200%;
+    position: relative;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.history-heading {
+    display: flex;
+    grid-area: header;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    max-width: 50%;
+    padding-top: 5%;
+
+}
+
+.underline{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+
+.history-description {
+    display: flex;
+    margin-top: 6%;
+    font-weight: 600;
+    grid-area: menu;
+    max-width: 50%;
+    line-height: 2rem;
+}
+
+.history-content {
+    display: flex;
+    margin-top: 6%;
+    grid-area: menu;
+    max-width: 50%;
+    line-height: 2rem;
+}
+
+.sliding-images {
+    top: 0;
+    right: 0;
+    float: right;
+    position: absolute;
+}
