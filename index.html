@@ -17,21 +17,38 @@
 <body>
 
     <!--           Navbar Starts          -->
-
     <div class="navbar">
-
-        <!--        Brand logo          -->
-
+        
         <div class="navbar-brand">
             <a href="index.html"><img src="img/logo.png"></a>
         </div>
-
-        <!--          Menu Hamburger    -->
-
-        <div class="menu-icon" onclick="">
+        <div class="menu-icon" onclick="openNav()">
             <div class="line-1"></div>
             <div class="line-2"></div>
             <div class="line-3"></div>
+        </div>
+        
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+
+        <div class="menu-links">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-flickr" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <br>
+            <div class="des">
+                T: 003 124 115<br>
+                E: info@mail.com
+            </div>
         </div>
     </div>
 
@@ -46,7 +63,7 @@
             </div>
 
             <div class="caraousel-moving-text">
-                <h1>Distinctively incubate</h1>
+                <h1>Random text</h1>
             </div>
         </div>
 
@@ -198,4 +215,5 @@
         </div>
 
     </div>
+    <script src="app.js"></script>
 </body></html>
